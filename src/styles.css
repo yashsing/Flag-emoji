@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: "Noto Sans Display", sans-serif;
+  text-align: center;
+}
+
+.header {
+  background-color: #831843;
+  color: #e5e7eb;
+  padding: 3rem;
+  margin: 0;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.input-text {
+  width: 25rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+  max-width: 80%;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.output-text {
+  display: block;
+  width: 25rem;
+  min-height: 2rem;
+  margin: 2rem auto;
+  max-width: 80%;
+  border: 1px solid black;
+  padding: 0.5rem;
+  resize: none;
+  overflow: hidden;
+}
+
+.emoji-container {
+  width: 40rem;
+  margin: 0 auto;
+  padding-left: 0;
+  max-width: 80%;
+}
+
+.emoji-style {
+  display: inline-block;
+  margin: 1rem;
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+.footer {
+  background-color: #831843;
+  color: white;
+  border-radius: 1rem 1rem 0 0;
+  padding: 7rem;
+  margin-top: 3rem;
+  height: auto;
+}
